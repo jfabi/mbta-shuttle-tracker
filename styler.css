@@ -1,0 +1,38 @@
+/*
+Written by Joshua Fabian
+jfabi@alum.mit.edu
+https://github.com/jfabi/mbta-shuttle-tracker
+*/
+
+body {
+    margin: 0;
+    color: black;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+
+#informationBox {
+    z-index: 10000;
+    position: fixed;
+    max-width: 75vw;
+    right: 25px;
+    top: 25px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.85);
+}
+
+#linkInfoDisclaimer {
+    font-size: 12px;
+    color: blue;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+#infoDisclaimer {
+    font-size: 12px;
+}
